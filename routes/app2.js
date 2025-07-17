@@ -2,11 +2,11 @@ const express = require('express');
 const path = require('path');
 const router = express.Router();
 
-// app 2
-const appPath = path.join(__dirname, "../../website_frontend/app2/build");
-router.use("/app2", express.static(appPath));
+// app 2 - weather app
+const appPath = path.join(__dirname, "../../website_frontend/weather-app/build");
+router.use("/weather_app", express.static(appPath));
 
-router.get("/app2/{*any}", (req, res) => {
+router.get("/weather_app/{*any}", (req, res) => {
   res.sendFile(path.join(appPath, "index.html"));
 });
 

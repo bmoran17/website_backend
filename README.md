@@ -13,8 +13,8 @@
 
 | app | Projects        | Link                       | Done |
 |---- | ----------- |----------------------------| ---- |
-| 1 | hometracker | /projects/hometracker | |
-| 2 | 
-| 3 | giphy_searcher  | /projects/giphy_searcher   | :white_check_mark: |
+| 1 | home tracker | /projects/hometracker | |
+| 2 | weather app | /projects/weather_app | :white_check_mark: |
+| 3 | giphy searcher  | /projects/giphy_searcher   | :white_check_mark: |
 | 
 
